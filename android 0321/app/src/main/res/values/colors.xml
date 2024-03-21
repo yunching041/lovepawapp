@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="home">#b3a8a2</color>
+    <color name="message">#b3a8a2</color>
+    <color name="comminicate">#b3a8a2</color>
+    <color name="personal">#b3a8a2</color>
+    <color name="home_20">#33F9F8F7</color>
+    <color name="message_20">#33F9F8F7</color>
+    <color name="comminicate_20">#33F9F8F7</color>
+    <color name="personal_20">#33F9F8F7</color>
+    <color name="button">#BFC5CC</color>
+</resources>

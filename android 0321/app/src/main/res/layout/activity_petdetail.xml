@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PetdetailActivity">
+
+    <ImageView
+        android:id="@+id/detailImage"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:padding="8dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ic_uploading"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/detailNeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="需求"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_below="@+id/detailImage"
+        android:padding="10dp"
+        android:textSize="24dp"
+        android:textColor="#BFC5CC"/>
+
+    <TextView
+        android:id="@+id/detailPetname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="毛小孩名"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_below="@+id/detailNeed"
+        android:padding="10dp"
+        android:textSize="18dp"
+        android:textColor="#BFC5CC"/>
+
+    <TextView
+        android:id="@+id/detailVariety"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="寵物品種"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_below="@+id/detailName"
+        android:padding="10dp"
+        android:textSize="18dp"
+        android:textColor="#BFC5CC"/>
+
+    <TextView
+        android:id="@+id/detailArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="地區"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_below="@+id/detailVariety"
+        android:padding="10dp"
+        android:textSize="18dp"
+        android:textColor="#BFC5CC"/>
+
+    <TextView
+        android:id="@+id/detailMoney"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="薪酬"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_below="@+id/detailArea"
+        android:padding="10dp"
+        android:textSize="18dp"
+        android:textColor="#BFC5CC"/>
+
+    <TextView
+        android:id="@+id/detailDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="詳細說明"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="15dp"
+        android:layout_below="@+id/detailMoney"
+        android:padding="10dp"
+        android:textSize="18dp"
+        android:textColor="#BFC5CC"/>
+
+
+</LinearLayout>

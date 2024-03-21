@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "711480480473",
+    "project_id": "lovepaw-5e661",
+    "storage_bucket": "lovepaw-5e661.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711480480473:android:2a1d8952b230ce5b8864c8",
+        "android_client_info": {
+          "package_name": "com.example.lovepaw"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlSOnD3FMQ7u2qDrwvFdeQgdpTZOKQXmc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

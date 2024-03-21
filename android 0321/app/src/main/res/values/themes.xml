@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.LovePaw" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+       <item name="color">@color/home</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/home</item>
+    </style>
+    
+    <style name="roundedImageViewRound">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>
